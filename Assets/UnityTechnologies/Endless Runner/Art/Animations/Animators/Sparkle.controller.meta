@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ea898411829e377448cd1f8c7f3307d9
+timeCreated: 1465477775
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Animations/Animators/Sparkle.controller
+  uploadId: 1001172

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9e2b957157514af40870bf65c60ae63f
+timeCreated: 1483981268
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Particles/PowerUpParticle/ExtraLifeParticles.prefab
+  uploadId: 1001172

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ecf01cd5caa75cb479b944033aa91de1
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/AddressableAssetsData/AssetGroups/Schemas/4c4981ffc6cbd384f83bfa48976554ea_BundledAssetGroupSchema.asset
+  uploadId: 1001172

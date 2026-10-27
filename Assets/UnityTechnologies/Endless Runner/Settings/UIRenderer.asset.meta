@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 45e4c9a2a5aaef0409ca1edd4a368fc6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Settings/UIRenderer.asset
+  uploadId: 1001172

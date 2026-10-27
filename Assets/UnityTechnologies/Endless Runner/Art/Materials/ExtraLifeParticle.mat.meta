@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ad7dda0662972b74ab9993189ff514c0
+timeCreated: 1482319459
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/ExtraLifeParticle.mat
+  uploadId: 1001172

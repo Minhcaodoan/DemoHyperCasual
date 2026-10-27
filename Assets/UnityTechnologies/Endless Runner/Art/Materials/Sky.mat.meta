@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: f1e84f069bd3a6d44ba8070fba940ec8
+timeCreated: 1463738998
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/Sky.mat
+  uploadId: 1001172

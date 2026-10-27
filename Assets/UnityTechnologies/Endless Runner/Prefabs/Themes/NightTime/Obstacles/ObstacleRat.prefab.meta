@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 35231d694d6c0ae4da2714b8969719cd
+timeCreated: 1463409337
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Themes/NightTime/Obstacles/ObstacleRat.prefab
+  uploadId: 1001172

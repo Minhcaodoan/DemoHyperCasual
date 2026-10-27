@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7b87d64eb926fa841a7a41465b9e8b04
+timeCreated: 1463411792
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Themes/NightTime/Obstacles/ObstacleDog.prefab
+  uploadId: 1001172

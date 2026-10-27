@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9191a4fd2eab74e4693e1a72e5ee97dc
+timeCreated: 1468923805
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Particles/InvincibilityCollectParticles.prefab
+  uploadId: 1001172

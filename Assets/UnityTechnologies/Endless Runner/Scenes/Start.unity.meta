@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 66b8e0d49d006dd4cb32d8b0fa444728
+timeCreated: 1471270117
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Scenes/Start.unity
+  uploadId: 1001172

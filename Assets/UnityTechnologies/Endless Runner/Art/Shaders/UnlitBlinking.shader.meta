@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b9ac761e73263dc46b8b27826e86ee14
+timeCreated: 1468852666
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Shaders/UnlitBlinking.shader
+  uploadId: 1001172

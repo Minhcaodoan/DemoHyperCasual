@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ead65696b3f69334fa5ec74c17f175be
+timeCreated: 1464703765
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/DogNight.mat
+  uploadId: 1001172

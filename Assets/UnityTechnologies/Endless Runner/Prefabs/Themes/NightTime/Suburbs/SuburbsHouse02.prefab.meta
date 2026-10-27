@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 654b47fe18f35714aaf36bfa70b02983
+timeCreated: 1465912024
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Themes/NightTime/Suburbs/SuburbsHouse02.prefab
+  uploadId: 1001172

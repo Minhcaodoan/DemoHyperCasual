@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 735e874f947d0e143a6b4e83f8a7283a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/AddressableAssetsData/AddressableAssetSettings.asset
+  uploadId: 1001172

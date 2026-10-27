@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 226b344b8bdac594ea142309336337fe
+timeCreated: 1463568976
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Themes/NightTime/Suburbs/SuburbsGarage01.prefab
+  uploadId: 1001172

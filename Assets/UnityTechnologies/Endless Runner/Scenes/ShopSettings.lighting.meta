@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: bb3960b2779404835b604a424dbd8012
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 4890085278179872738
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Scenes/ShopSettings.lighting
+  uploadId: 1001172

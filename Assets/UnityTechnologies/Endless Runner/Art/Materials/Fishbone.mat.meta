@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b2a61585b42736f498a47f62a7424de1
+timeCreated: 1465567248
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/Fishbone.mat
+  uploadId: 1001172

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7735f5ae6b6214fbbbb6bb2ba3eb8a96
+AssemblyDefinitionImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Runtime/UnityTechnologies.EndlessRunner.asmdef
+  uploadId: 1001172

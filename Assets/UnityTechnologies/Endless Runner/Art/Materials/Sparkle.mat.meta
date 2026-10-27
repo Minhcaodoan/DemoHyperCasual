@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 04421d6c9a0d6724b82f7dbaddd32bab
+timeCreated: 1465477604
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/Sparkle.mat
+  uploadId: 1001172

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3b7e99a6684bf49fa9bad5f4bb585fab
+timeCreated: 1474966709
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Audio/Mixers/MainMix.mixer
+  uploadId: 1001172

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 93d8fc18fdc65dd4aa903210d93f3343
+timeCreated: 1463393738
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Shaders/CurvedUnlit.shader
+  uploadId: 1001172

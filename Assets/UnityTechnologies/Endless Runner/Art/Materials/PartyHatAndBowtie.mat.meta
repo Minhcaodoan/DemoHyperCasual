@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 634af5e9b95b83f40ab50b103810bb3c
+timeCreated: 1480953989
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/PartyHatAndBowtie.mat
+  uploadId: 1001172

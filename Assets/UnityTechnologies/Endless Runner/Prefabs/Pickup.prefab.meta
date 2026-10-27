@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 16cac8b68c4ca6448baecd0680e025f6
+timeCreated: 1457110866
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Pickup.prefab
+  uploadId: 1001172

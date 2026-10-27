@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1ed06baf38958d4499069ab23fb82419
+timeCreated: 1468838026
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Particles/FishBoneCollectParticles.prefab
+  uploadId: 1001172

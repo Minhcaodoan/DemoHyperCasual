@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9f7f815499f6a9845acf83e247f57640
+timeCreated: 1464780457
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/Rat.mat
+  uploadId: 1001172

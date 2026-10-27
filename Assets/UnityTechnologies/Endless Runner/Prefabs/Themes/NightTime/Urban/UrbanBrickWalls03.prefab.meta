@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4add46b17d5814744bb1498b198ed25d
+timeCreated: 1465824927
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Themes/NightTime/Urban/UrbanBrickWalls03.prefab
+  uploadId: 1001172

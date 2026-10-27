@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 480053abe3ba0aa4883a1b63c0deee9d
+timeCreated: 1465575618
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Themes/Default/Sky/DefaultCloud03.prefab
+  uploadId: 1001172

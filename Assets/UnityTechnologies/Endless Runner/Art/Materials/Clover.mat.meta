@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 099f8ab5055c38e4fa9b02975140c339
+timeCreated: 1465567238
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/Clover.mat
+  uploadId: 1001172

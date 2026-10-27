@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 15066d50e81445ed9e318d0c2beede4e
+labels:
+- gvh_version-1.2.185
+- gvhp_exportpath-ExternalDependencyManager/Editor/CHANGELOG.md
+- gvh
+timeCreated: 1584567712
+licenseType: Store
+TextScriptImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/MobileDependencyResolver/Editor/CHANGELOG.md
+  uploadId: 1001172

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c204816c584e8fd48a9e5c55a4d559b0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Animations/Image.controller
+  uploadId: 1001172

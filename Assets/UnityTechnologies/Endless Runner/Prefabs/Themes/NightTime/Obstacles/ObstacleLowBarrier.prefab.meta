@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a9b51c81c20d09b49a078e5821bb9d58
+timeCreated: 1463398148
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Themes/NightTime/Obstacles/ObstacleLowBarrier.prefab
+  uploadId: 1001172

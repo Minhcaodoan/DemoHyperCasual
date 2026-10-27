@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a360c9ac9532bde44ac815403ab03c52
+timeCreated: 1468837475
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/PickupParticle.mat
+  uploadId: 1001172

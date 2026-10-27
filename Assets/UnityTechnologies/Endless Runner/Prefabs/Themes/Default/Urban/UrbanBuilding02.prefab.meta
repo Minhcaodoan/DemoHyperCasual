@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 391abdb78f486ff4abd13845846e0f05
+timeCreated: 1463995996
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Themes/Default/Urban/UrbanBuilding02.prefab
+  uploadId: 1001172

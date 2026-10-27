@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 58fe4014eb2279041837044e643ef98f
+timeCreated: 1468581049
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/LightPool.mat
+  uploadId: 1001172

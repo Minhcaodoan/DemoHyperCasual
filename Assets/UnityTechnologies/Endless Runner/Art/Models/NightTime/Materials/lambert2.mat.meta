@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fc88a745e354b2c44907d9378e6b7700
+timeCreated: 1482140605
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Models/NightTime/Materials/lambert2.mat
+  uploadId: 1001172

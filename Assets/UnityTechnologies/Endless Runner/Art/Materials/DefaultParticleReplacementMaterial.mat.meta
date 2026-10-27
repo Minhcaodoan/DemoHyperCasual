@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e51bbcfc510c86f4c9669cd35e38c510
+timeCreated: 1482336586
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/DefaultParticleReplacementMaterial.mat
+  uploadId: 1001172

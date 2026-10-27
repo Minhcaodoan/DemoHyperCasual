@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0c4cead7e53929f448c0443a1c2b53a9
+timeCreated: 1465567235
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/Dumpster.mat
+  uploadId: 1001172

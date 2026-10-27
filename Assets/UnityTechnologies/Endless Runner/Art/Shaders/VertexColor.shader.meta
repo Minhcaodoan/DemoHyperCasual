@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: d63f5eb2904b2b346afd16ebb961ff06
+timeCreated: 1467728072
+licenseType: Store
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Shaders/VertexColor.shader
+  uploadId: 1001172

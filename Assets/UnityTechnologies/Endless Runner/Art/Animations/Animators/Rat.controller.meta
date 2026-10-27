@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a41010c8e687cb946bd98efd6045e35b
+timeCreated: 1465312788
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Animations/Animators/Rat.controller
+  uploadId: 1001172

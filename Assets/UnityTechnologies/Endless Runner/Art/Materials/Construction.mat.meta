@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4b6127cf676e2864fa12c9e37a94440d
+timeCreated: 1464785186
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/Construction.mat
+  uploadId: 1001172

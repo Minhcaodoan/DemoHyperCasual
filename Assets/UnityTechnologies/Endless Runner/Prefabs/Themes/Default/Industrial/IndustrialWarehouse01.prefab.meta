@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2d4807022e73aa34ab8f01892dbdfe1d
+timeCreated: 1463655409
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/Themes/Default/Industrial/IndustrialWarehouse01.prefab
+  uploadId: 1001172

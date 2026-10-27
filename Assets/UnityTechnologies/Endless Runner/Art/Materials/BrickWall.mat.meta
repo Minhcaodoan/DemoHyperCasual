@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 9eb722b0ceeb9c34fa2b2afbc8a97dd1
+timeCreated: 1465566652
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/BrickWall.mat
+  uploadId: 1001172

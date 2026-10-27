@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d34289ce016bed842aedd82ddadb5e50
+timeCreated: 1480955870
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Art/Materials/BackgroundCircle.mat
+  uploadId: 1001172

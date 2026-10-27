@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6544c21b25704ab4e9c8cd6a6d503dad
+timeCreated: 1449074868
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 87901
+  packageName: Endless Runner | Mobile Sample Project
+  packageVersion: 2.0.0
+  assetPath: Assets/UnityTechnologies/Endless Runner/Prefabs/StraightLine.prefab
+  uploadId: 1001172
