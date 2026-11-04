@@ -121,9 +121,10 @@ GameObject:
   - component: {fileID: 114000011742927702}
   - component: {fileID: 82000012920248836}
   - component: {fileID: 114098358831157252}
+  - component: {fileID: 5878699007418957482}
   m_Layer: 9
   m_Name: ObstacleLowBarrier
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -288,3 +289,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mixerGroup: SFX
+--- !u!114 &5878699007418957482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013842435444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3abf25ed5ca93e4fa9f0319b9804369, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObstacleController

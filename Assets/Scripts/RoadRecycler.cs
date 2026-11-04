@@ -15,6 +15,15 @@ public class RoadRecycler : MonoBehaviour
     {
         // Tự động tính tổng chiều dài chuỗi đường dựa trên số lượng đoạn đường bạn gán
         totalRoadLength = roadLength * roads.Length;
+
+        foreach (Transform road in roads)
+        {
+            RoadSegment segmentScript = road.GetComponent<RoadSegment>();
+            if (segmentScript != null)
+            {
+                segmentScript.ResetRoad();
+            }
+        }
     }
 
     private void Update()
@@ -28,6 +37,12 @@ public class RoadRecycler : MonoBehaviour
                 Vector3 newPos = road.position;
                 newPos.z += totalRoadLength;
                 road.position = newPos;
+
+                RoadSegment segmentScript = road.GetComponent<RoadSegment>();
+                if (segmentScript != null)
+                {
+                    segmentScript.ResetRoad();
+                }
             }
         }
     }
