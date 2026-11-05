@@ -15,6 +15,9 @@ public class UIManager : MonoBehaviour
     [SerializeField] private TextMeshProUGUI currentScoreText;
     [SerializeField] private TextMeshProUGUI finalScoreText;
 
+    [Header("Player Reference")]
+    [SerializeField] private Transform Charactor;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -28,6 +31,10 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         ShowMainMenu();
+        if (Charactor != null)
+        {
+            Charactor.GetComponent<PlayerController>().enabled = false;
+        }
     }
 
     
@@ -43,9 +50,14 @@ public class UIManager : MonoBehaviour
         mainMenuPanel.SetActive(false);
         gameplayPanel.SetActive(true);
         gameOverPanel.SetActive(false);
+
+        if (Charactor != null)
+        {
+            Charactor.GetComponent<PlayerController>().enabled = true;
+        }
     }
 
-    public void ShowGameOver(int finalScore)
+    public void ShowGameOver()
     {
         mainMenuPanel.SetActive(false);
         gameplayPanel.SetActive(false);
@@ -53,21 +65,22 @@ public class UIManager : MonoBehaviour
 
         if (finalScoreText != null)
         {
-            finalScoreText.text = "Score: " + finalScore.ToString();
+            finalScoreText.text = "Score: " + currentScoreText.text;
         }
     }
 
-    public void UpdateScoreUI(int score)
+    public void UpdateScoreUI()
     {
         if (currentScoreText != null)
         {
-            currentScoreText.text = score.ToString();
+            currentScoreText.text = Charactor.position.z.ToString("N0");
         }
     }
 
     public void OnClickPlayButton()
     {
         ShowGameplay();
+        
     }
 
     public void OnClickReplayButton()

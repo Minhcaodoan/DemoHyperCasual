@@ -19,6 +19,7 @@ public class PlayerCollision : MonoBehaviour
             // 2. Kích hoạt animation thua cuộc
             GetComponent<Animator>().SetTrigger("Hit");
             GetComponent<Animator>().SetBool("Dead", true);
+            UIManager.Instance.ShowGameOver();
 
             // 3. Gọi Game Manager để hiện bảng Game Over sau 1-2 giây
             // GameManager.Instance.GameOver();

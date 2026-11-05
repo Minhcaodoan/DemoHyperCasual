@@ -44,6 +44,7 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
+        UIManager.Instance.UpdateScoreUI();
         // Xử lý nhận phím (New Input System)
         if (Keyboard.current != null)
         {
@@ -129,7 +130,7 @@ public class PlayerController : MonoBehaviour
         // Thu nhỏ chiều cao của CharacterController khi trượt để chui qua vật cản thấp
         if (capsuleCollider != null)
         {
-            capsuleCollider.height = originalHeight / 2f;
+            capsuleCollider.height = 0.5f;
             capsuleCollider.center = new Vector3(capsuleCollider.center.x, capsuleCollider.center.y / 2f, capsuleCollider.center.z);
         }
         if (animator != null)
