@@ -3,7 +3,6 @@
 public class RoadSegment : MonoBehaviour
 {
     public static RoadSegment Instance;
-    // Tạo một cấu trúc để gom cặp: Điểm mốc nằm ở đâu và dùng Tag gì
     [System.Serializable]
     public struct SpawnInfo
     {

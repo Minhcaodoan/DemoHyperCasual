@@ -41,7 +41,7 @@ public class ObjectPooler : MonoBehaviour
 
     }
 
-    // Hàm lấy vật cản ra từ hồ
+    // Hàm lấy vật cản ra
     public GameObject SpawnFromPool(string tag, Vector3 position, Quaternion rotation)
     {
         if (!poolDictionary.ContainsKey(tag))

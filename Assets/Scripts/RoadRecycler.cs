@@ -13,7 +13,7 @@ public class RoadRecycler : MonoBehaviour
 
     private void Start()
     {
-        // Tự động tính tổng chiều dài chuỗi đường dựa trên số lượng đoạn đường bạn gán
+        // Tự động tính tổng chiều dài chuỗi đường dựa trên số lượng đoạn đường đã gán
         totalRoadLength = roadLength * roads.Length;
 
         foreach (Transform road in roads)

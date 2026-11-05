@@ -2166,7 +2166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   moveSpeed: 10
   forwardSpeed: 10
-  jumpForce: 8
+  jumpForce: 10
   gravity: 20
   slideDuration: 1
 --- !u!4 &1857309907 stripped
@@ -2190,7 +2190,7 @@ CapsuleCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2198,6 +2198,18 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1857309912
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857309895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: caf19c0129380ee429c76e94aa3aa99a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
 --- !u!1 &1881013589
 GameObject:
   m_ObjectHideFlags: 0
@@ -2431,6 +2443,10 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 1857309908}
+    - targetCorrespondingSourceObject: {fileID: 199232, guid: 2ae64d0eaec8d6f4f9436fce6117048d,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1857309912}
   m_SourcePrefab: {fileID: 100100000, guid: 2ae64d0eaec8d6f4f9436fce6117048d, type: 3}
 --- !u!1001 &1974625224
 PrefabInstance:
