@@ -12,17 +12,11 @@ public class PlayerCollision : MonoBehaviour
         {
             hasHit = true;
             Debug.Log("Đã va chạm với chướng ngại vật!");
-
-            // 1. Dừng di chuyển nhân vật (gọi script movement)
-            GetComponent<PlayerController>().enabled = false;
-
             // 2. Kích hoạt animation thua cuộc
             GetComponent<Animator>().SetTrigger("Hit");
             GetComponent<Animator>().SetBool("Dead", true);
-            UIManager.Instance.ShowGameOver();
 
-            // 3. Gọi Game Manager để hiện bảng Game Over sau 1-2 giây
-            // GameManager.Instance.GameOver();
+            GameDemoManager.Instance?.GameOver();
         }
     }
 }

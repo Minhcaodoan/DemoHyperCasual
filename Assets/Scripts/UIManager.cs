@@ -27,16 +27,6 @@ public class UIManager : MonoBehaviour
         }
         Instance = this;
     }
-
-    private void Start()
-    {
-        ShowMainMenu();
-        if (Charactor != null)
-        {
-            Charactor.GetComponent<PlayerController>().enabled = false;
-        }
-    }
-
     
     public void ShowMainMenu()
     {
@@ -50,11 +40,6 @@ public class UIManager : MonoBehaviour
         mainMenuPanel.SetActive(false);
         gameplayPanel.SetActive(true);
         gameOverPanel.SetActive(false);
-
-        if (Charactor != null)
-        {
-            Charactor.GetComponent<PlayerController>().enabled = true;
-        }
     }
 
     public void ShowGameOver()
@@ -62,11 +47,6 @@ public class UIManager : MonoBehaviour
         mainMenuPanel.SetActive(false);
         gameplayPanel.SetActive(false);
         gameOverPanel.SetActive(true);
-
-        if (finalScoreText != null)
-        {
-            finalScoreText.text = "Score: " + currentScoreText.text;
-        }
     }
 
     public void UpdateScoreUI()
@@ -80,12 +60,13 @@ public class UIManager : MonoBehaviour
     public void OnClickPlayButton()
     {
         ShowGameplay();
-        
+        GameDemoManager.Instance.StartGame();
+        AudioManager.Instance?.PlaySFX("ClickSound");
     }
 
     public void OnClickReplayButton()
     {
-        Scene activeScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(activeScene.name);
+        GameDemoManager.Instance.RestartGame();
+        AudioManager.Instance?.PlaySFX("ClickSound");
     }
 }

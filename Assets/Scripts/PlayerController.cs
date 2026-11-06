@@ -31,10 +31,7 @@ public class PlayerController : MonoBehaviour
         capsuleCollider = GetComponent<CapsuleCollider>();
 
         // Khi game bắt đầu, bật trạng thái chạy (Moving = true)
-        if (animator != null)
-        {
-            animator.SetBool("Moving", true);
-        }
+        animator?.SetBool("Moving", true);
 
         if (capsuleCollider != null)
         {
@@ -64,10 +61,7 @@ public class PlayerController : MonoBehaviour
             if (controller.isGrounded)
             {
                 verticalVelocity = -1f; // Giữ nhân vật bám sát mặt đường khi đứng/chạy trên đất
-                if (animator != null)
-                {
-                    animator.SetBool("Jumping", false); // Chạm đất thì tắt animation nhảy
-                }
+                animator?.SetBool("Jumping", false); // Chạm đất thì tắt animation nhảy
                 if (Keyboard.current.spaceKey.wasPressedThisFrame)
                 {
                     Jump();
@@ -114,11 +108,7 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         verticalVelocity = jumpForce;
-        if (animator != null)
-        {
-            // Dùng SetBool "Jumping" hoặc SetTrigger tùy theo thiết lập mũi tên chuyển trạng thái của asset
-            animator.SetBool("Jumping", true);
-        }
+        animator?.SetBool("Jumping", true);
     }
 
     private void StartSlide()
@@ -133,10 +123,7 @@ public class PlayerController : MonoBehaviour
             capsuleCollider.height = 0.5f;
             capsuleCollider.center = new Vector3(capsuleCollider.center.x, capsuleCollider.center.y / 2f, capsuleCollider.center.z);
         }
-        if (animator != null)
-        {
-            animator.SetBool("Sliding", true);
-        }
+        animator?.SetBool("Sliding", true);
     }
 
     private void StopSlide()
@@ -150,10 +137,6 @@ public class PlayerController : MonoBehaviour
             capsuleCollider.height = originalHeight;
             capsuleCollider.center = new Vector3(capsuleCollider.center.x, capsuleCollider.center.y * 2f, capsuleCollider.center.z);
         }
-
-        if (animator != null)
-        {
-            animator.SetBool("Sliding", false);
-        }
+        animator?.SetBool("Sliding", false);
     }
 }

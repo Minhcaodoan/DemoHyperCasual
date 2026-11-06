@@ -28,10 +28,7 @@ public class RoadSegment : MonoBehaviour
                 // Gọi vật cản từ kho dựa vào tag riêng của điểm mốc đó
                 GameObject obstacle = ObjectPooler.Instance.SpawnFromPool(info.obstacleTag, info.spawnPoint.position, info.spawnPoint.rotation);
 
-                if (obstacle != null)
-                {
-                    obstacle.transform.SetParent(this.transform); // Đặt làm con để di chuyển cùng đoạn đường
-                }
+                obstacle?.transform.SetParent(this.transform); // Đặt làm con để di chuyển cùng đoạn đường
             }
         }
     }
