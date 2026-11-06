@@ -669,16 +669,22 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 1588137430bfbab4b9a00ba3b220b82b, type: 3}
   - name: OverSound
     clip: {fileID: 8300000, guid: 15e26518785848f4caf8ba236b4d0690, type: 3}
-  - name: PlaySound
-    clip: {fileID: 8300000, guid: b341b9410b3c5274e8b15199f3b95fb5, type: 3}
+  - name: DeadSystemSound
+    clip: {fileID: 8300000, guid: 603f051bdda9f2e4e85ca5ebcececfdf, type: 3}
   - name: JumpSound
     clip: {fileID: 8300000, guid: 819da6b208e0c0342b38dbbba363b740, type: 3}
   - name: DeadSound
     clip: {fileID: 8300000, guid: 3acd66c1c1f3d3a499214949f2b98bc5, type: 3}
   - name: SildeSound
     clip: {fileID: 8300000, guid: febd5a5a8b245774fbfa9f0bef51e0b6, type: 3}
-  - name: DeadSysSound
-    clip: {fileID: 8300000, guid: 603f051bdda9f2e4e85ca5ebcececfdf, type: 3}
+  randomBGMList:
+  - {fileID: 8300000, guid: b341b9410b3c5274e8b15199f3b95fb5, type: 3}
+  - {fileID: 8300000, guid: 6db87f5f2928abe40a08ef1016e3c830, type: 3}
+  - {fileID: 8300000, guid: fc0811928bd2d9d449d4eae17f4f4b3d, type: 3}
+  - {fileID: 8300000, guid: 86dbdb689ba140a468dbe99cc86b550c, type: 3}
+  - {fileID: 8300000, guid: e332926f9f9720947b646c7c3c65902f, type: 3}
+  - {fileID: 8300000, guid: e5b9826496c6c0141801fef8a5a0eeab, type: 3}
+  - {fileID: 8300000, guid: 37d5e1f1666e7f643891a80f6d37b371, type: 3}
 --- !u!4 &388455494
 Transform:
   m_ObjectHideFlags: 0

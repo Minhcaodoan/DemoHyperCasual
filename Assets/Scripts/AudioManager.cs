@@ -14,13 +14,15 @@ public class AudioManager : MonoBehaviour
 
     [Header("Danh sách tất cả âm thanh trong Game")]
     [SerializeField] private List<Sound> soundList = new List<Sound>();
+    [Header("List random BGM play")]
+    [SerializeField] private List<AudioClip> randomBGMList = new List<AudioClip>();
 
     // Các kênh phát (Loa)
     private AudioSource sfxAudioSource;
     private AudioSource bgmAudioSource;
-
     // Từ điển giúp tìm kiếm âm thanh cực nhanh bằng tên
     private Dictionary<string, AudioClip> soundDictionary;
+    private bool isPlayingRandomBGM = false;
 
     private void Awake()
     {
@@ -34,7 +36,7 @@ public class AudioManager : MonoBehaviour
         // Tạo loa
         sfxAudioSource = gameObject.AddComponent<AudioSource>();
         bgmAudioSource = gameObject.AddComponent<AudioSource>();
-        bgmAudioSource.loop = true;
+        bgmAudioSource.loop = false;
 
         // Chuyển danh sách (List) thành Từ điển (Dictionary) để tối ưu tốc độ tìm kiếm
         soundDictionary = new Dictionary<string, AudioClip>();
@@ -45,6 +47,42 @@ public class AudioManager : MonoBehaviour
                 soundDictionary.Add(sound.name, sound.clip);
             }
         }
+    }
+    private void Update()
+    {
+        // Nếu đang bật chế độ nhạc ngẫu nhiên, và bài nhạc hiện tại đã phát xong (!isPlaying) -> Tự động đổi bài mới
+        if (isPlayingRandomBGM && !bgmAudioSource.isPlaying && randomBGMList.Count > 0)
+        {
+            PlayNextRandomBGM();
+        }
+    }
+    public void StartRandomBGM()
+    {
+        if (randomBGMList.Count == 0)
+        {
+            Debug.LogWarning("Chưa có bản nhạc ngẫu nhiên nào trong danh sách!");
+            return;
+        }
+
+        isPlayingRandomBGM = true;
+        PlayNextRandomBGM();
+    }
+    private void PlayNextRandomBGM()
+    {
+        if (randomBGMList.Count == 0) return;
+
+        // Chọn ngẫu nhiên một index trong danh sách
+        int randomIndex = Random.Range(0, randomBGMList.Count);
+        AudioClip clip = randomBGMList[randomIndex];
+
+        bgmAudioSource.Stop();
+        bgmAudioSource.clip = clip;
+        bgmAudioSource.Play();
+    }
+    public void StopRandomBGM()
+    {
+        isPlayingRandomBGM = false;
+        bgmAudioSource.Stop();
     }
 
     // --- HÀM PHÁT ÂM THANH TỔNG QUÁT ---
@@ -66,14 +104,15 @@ public class AudioManager : MonoBehaviour
 
     public void PlayBGM(string musicName)
     {
-        if (soundDictionary.ContainsKey(musicName))
+        StopRandomBGM(); // Tắt chế độ ngẫu nhiên nếu phát nhạc đơn lẻ (như nhạc Menu)
+        if (soundDictionary.TryGetValue(musicName, out AudioClip clip) && clip != null)
         {
-            AudioClip clip = soundDictionary[musicName];
-            if (clip != null && bgmAudioSource.clip != clip)
-            {
-                bgmAudioSource.clip = clip;
-                bgmAudioSource.Play();
-            }
+            if (bgmAudioSource.isPlaying && bgmAudioSource.clip == clip) return;
+
+            bgmAudioSource.Stop();
+            bgmAudioSource.clip = clip;
+            bgmAudioSource.loop = true; // Nhạc menu thì cho lặp lại
+            bgmAudioSource.Play();
         }
     }
 }

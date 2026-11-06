@@ -107,6 +107,7 @@ public class PlayerController : MonoBehaviour
 
     private void Jump()
     {
+        AudioManager.Instance?.PlaySFX("JumpSound");
         verticalVelocity = jumpForce;
         animator?.SetBool("Jumping", true);
     }
@@ -115,7 +116,6 @@ public class PlayerController : MonoBehaviour
     {
         isSliding = true;
         slideTimer = slideDuration;
-
         Debug.Log("hihi");
         // Thu nhỏ chiều cao của CharacterController khi trượt để chui qua vật cản thấp
         if (capsuleCollider != null)

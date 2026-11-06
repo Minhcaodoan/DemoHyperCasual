@@ -46,18 +46,21 @@ public class GameDemoManager : MonoBehaviour
 
     public void StartGame()
     {
-        AudioManager.Instance?.PlayBGM("PlaySound");
+        AudioManager.Instance?.StartRandomBGM();
         StartCoroutine(StartGameRoutine());
     }
 
     private IEnumerator OverRoutine()
     {
+        AudioManager.Instance?.StopRandomBGM();
         AudioManager.Instance?.PlaySFX("DeadSound");
         if (charactor != null)
         {
             charactor.GetComponent<PlayerController>().enabled = false;
         }
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(1f);
+        AudioManager.Instance?.PlaySFX("DeadSystemSound");
+        yield return new WaitForSeconds(2f);
         UIManager.Instance?.ShowGameOver();
         AudioManager.Instance?.PlayBGM("OverSound");
     }
