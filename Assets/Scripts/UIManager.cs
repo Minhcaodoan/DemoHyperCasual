@@ -47,6 +47,7 @@ public class UIManager : MonoBehaviour
         mainMenuPanel.SetActive(false);
         gameplayPanel.SetActive(false);
         gameOverPanel.SetActive(true);
+        finalScoreText.text = "Score: "+currentScoreText.text+"m";
     }
 
     public void UpdateScoreUI()

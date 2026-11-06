@@ -13,6 +13,8 @@ public class GameDemoManager : MonoBehaviour
     [SerializeField] private float startDelay = 2f;
     private void Awake()
     {
+        Application.targetFrameRate = 60; // Giới hạn 60 khung hình/giây
+        QualitySettings.vSyncCount = 0;   // Tắt VSync để kiểm soát FPS tốt hơn trên mobile
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
