@@ -2189,6 +2189,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5837693383527603104, guid: 6544c21b25704ab4e9c8cd6a6d503dad,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a2463f15210f661439c866ecbb84a362, type: 2}
     - target: {fileID: 130440, guid: 6544c21b25704ab4e9c8cd6a6d503dad, type: 3}
       propertyPath: m_Name
       value: StraightLine1
@@ -3080,6 +3085,7 @@ MonoBehaviour:
   jumpForce: 10
   gravity: 20
   slideDuration: 1
+  swipeThreshold: 50
 --- !u!4 &1857309907 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 465740, guid: 2ae64d0eaec8d6f4f9436fce6117048d,
@@ -3398,6 +3404,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5837693383527603104, guid: 6544c21b25704ab4e9c8cd6a6d503dad,
+        type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: a2463f15210f661439c866ecbb84a362, type: 2}
     - target: {fileID: 130440, guid: 6544c21b25704ab4e9c8cd6a6d503dad, type: 3}
       propertyPath: m_Name
       value: StraightLine2
